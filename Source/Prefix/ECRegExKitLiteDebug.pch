@@ -6,4 +6,4 @@
 
 #import <ECConfig/ECConfigDebug.pch>
 
-#import "ECOAuthConsumerShared.pch"
+#import "ECRegExKitLiteShared.pch"

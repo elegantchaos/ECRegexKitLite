@@ -4,6 +4,10 @@
 //  liberal license: http://www.elegantchaos.com/license/liberal
 // --------------------------------------------------------------------------
 
-#import <ECConfig/ECConfigRelease.pch>
+#define EC_REGEXKITLITE 1
 
-#import "ECOAuthConsumerShared.pch"
+#ifdef __OBJC__
+
+#include <ECConfig/ECConfig.h>
+
+#endif
