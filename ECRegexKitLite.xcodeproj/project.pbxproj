@@ -10,10 +10,10 @@
 		220D699915DC248300CCC17C /* ECConfig.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2251BBAD15DC1B4E00F2FE40 /* ECConfig.framework */; };
 		220D699A15DC248300CCC17C /* ECUnitTests.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2251BBA615DC18ED00F2FE40 /* ECUnitTests.framework */; };
 		220D699C15DC50CE00CCC17C /* ECUnitTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2251BBA615DC18ED00F2FE40 /* ECUnitTests.framework */; };
-		220D699D15DC510900CCC17C /* ECRegExKitLite.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2251B9FF15DBCC3E00F2FE40 /* ECRegExKitLite.framework */; };
-		22339C3915DEC1C60017BC6B /* ECRegExKitLite.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2251BA1215DBCC4A00F2FE40 /* ECRegExKitLite.framework */; };
+		220D699D15DC510900CCC17C /* ECRegexKitLite.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2251B9FF15DBCC3E00F2FE40 /* ECRegexKitLite.framework */; };
+		22339C3915DEC1C60017BC6B /* ECRegexKitLite.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2251BA1215DBCC4A00F2FE40 /* ECRegexKitLite.framework */; };
 		2251BA0015DBCC3E00F2FE40 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2283A3BB14F52E93009142F7 /* Cocoa.framework */; };
-		2251BA6415DBD9A600F2FE40 /* ECRegExKitLite.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2251B9FF15DBCC3E00F2FE40 /* ECRegExKitLite.framework */; };
+		2251BA6415DBD9A600F2FE40 /* ECRegexKitLite.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2251B9FF15DBCC3E00F2FE40 /* ECRegexKitLite.framework */; };
 		2268499E14F5720600B8691A /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2283A3CD14F52E93009142F7 /* SenTestingKit.framework */; };
 		2268499F14F5722300B8691A /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2283A3BB14F52E93009142F7 /* Cocoa.framework */; };
 		2274B38E14F56896003B8A0B /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2283A3CD14F52E93009142F7 /* SenTestingKit.framework */; };
@@ -21,8 +21,8 @@
 		2274B39114F56896003B8A0B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2237ECE314F5644C00085BF5 /* Foundation.framework */; };
 		22F08D9415E61F5C003E8456 /* ECRegExKitLite.h in Headers */ = {isa = PBXBuildFile; fileRef = 22F08D9315E61F5C003E8456 /* ECRegExKitLite.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		22F08D9515E61F5C003E8456 /* ECRegExKitLite.h in Headers */ = {isa = PBXBuildFile; fileRef = 22F08D9315E61F5C003E8456 /* ECRegExKitLite.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		22F08DCF15E62518003E8456 /* RegexKitLite.h in Headers */ = {isa = PBXBuildFile; fileRef = 22F08DB615E62518003E8456 /* RegexKitLite.h */; };
-		22F08DD015E62518003E8456 /* RegexKitLite.h in Headers */ = {isa = PBXBuildFile; fileRef = 22F08DB615E62518003E8456 /* RegexKitLite.h */; };
+		22F08DCF15E62518003E8456 /* RegexKitLite.h in Headers */ = {isa = PBXBuildFile; fileRef = 22F08DB615E62518003E8456 /* RegexKitLite.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		22F08DD015E62518003E8456 /* RegexKitLite.h in Headers */ = {isa = PBXBuildFile; fileRef = 22F08DB615E62518003E8456 /* RegexKitLite.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		22F08DD315E62518003E8456 /* RegexKitLite.m in Sources */ = {isa = PBXBuildFile; fileRef = 22F08DB815E62518003E8456 /* RegexKitLite.m */; };
 		22F08DD415E62518003E8456 /* RegexKitLite.m in Sources */ = {isa = PBXBuildFile; fileRef = 22F08DB815E62518003E8456 /* RegexKitLite.m */; };
 		22F08DF615E6274F003E8456 /* libicucore.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 22F08DF515E6274F003E8456 /* libicucore.dylib */; };
@@ -35,7 +35,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				220D699D15DC510900CCC17C /* ECRegExKitLite.framework in CopyFiles */,
+				220D699D15DC510900CCC17C /* ECRegexKitLite.framework in CopyFiles */,
 				220D699915DC248300CCC17C /* ECConfig.framework in CopyFiles */,
 				220D699A15DC248300CCC17C /* ECUnitTests.framework in CopyFiles */,
 			);
@@ -49,8 +49,8 @@
 		2229674F1354EDC5005F42E7 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
 		2237ECE314F5644C00085BF5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		223CBAE61205C6380008A641 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		2251B9FF15DBCC3E00F2FE40 /* ECRegExKitLite.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ECRegExKitLite.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		2251BA1215DBCC4A00F2FE40 /* ECRegExKitLite.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ECRegExKitLite.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2251B9FF15DBCC3E00F2FE40 /* ECRegexKitLite.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ECRegexKitLite.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2251BA1215DBCC4A00F2FE40 /* ECRegexKitLite.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ECRegexKitLite.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2251BA1315DBCC4A00F2FE40 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
 		2251BA4315DBCD3900F2FE40 /* IOSDebug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = IOSDebug.xcconfig; sourceTree = "<group>"; };
 		2251BA4415DBCD3900F2FE40 /* IOSRelease.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = IOSRelease.xcconfig; sourceTree = "<group>"; };
@@ -73,7 +73,6 @@
 		22602236141F8A230044644C /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = SDKs/MacOSX10.7.sdk/System/Library/Frameworks/IOKit.framework; sourceTree = DEVELOPER_DIR; };
 		22602238141F8A460044644C /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = SDKs/MacOSX10.7.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
 		2260223A141F8A4E0044644C /* libcrypto.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libcrypto.dylib; path = SDKs/MacOSX10.7.sdk/usr/lib/libcrypto.dylib; sourceTree = DEVELOPER_DIR; };
-		227333B811EBBA3000695FB4 /* GHUnit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GHUnit.framework; path = Library/Frameworks/GHUnit.framework; sourceTree = SDKROOT; };
 		2274B38D14F56896003B8A0B /* ECLoggingIOSTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = ECLoggingIOSTests.octest; path = ECRegexKitLiteIOSTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2274B38F14F56896003B8A0B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		2283A3BB14F52E93009142F7 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
@@ -129,7 +128,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				220D699C15DC50CE00CCC17C /* ECUnitTests.framework in Frameworks */,
-				2251BA6415DBD9A600F2FE40 /* ECRegExKitLite.framework in Frameworks */,
+				2251BA6415DBD9A600F2FE40 /* ECRegexKitLite.framework in Frameworks */,
 				2268499F14F5722300B8691A /* Cocoa.framework in Frameworks */,
 				2268499E14F5720600B8691A /* SenTestingKit.framework in Frameworks */,
 			);
@@ -139,7 +138,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				22339C3915DEC1C60017BC6B /* ECRegExKitLite.framework in Frameworks */,
+				22339C3915DEC1C60017BC6B /* ECRegexKitLite.framework in Frameworks */,
 				2274B38E14F56896003B8A0B /* SenTestingKit.framework in Frameworks */,
 				2274B39014F56896003B8A0B /* UIKit.framework in Frameworks */,
 				2274B39114F56896003B8A0B /* Foundation.framework in Frameworks */,
@@ -154,8 +153,8 @@
 			children = (
 				225EC67211EBAA4800A97AEA /* ECLoggingMacTests.octest */,
 				2274B38D14F56896003B8A0B /* ECLoggingIOSTests.octest */,
-				2251B9FF15DBCC3E00F2FE40 /* ECRegExKitLite.framework */,
-				2251BA1215DBCC4A00F2FE40 /* ECRegExKitLite.framework */,
+				2251B9FF15DBCC3E00F2FE40 /* ECRegexKitLite.framework */,
+				2251BA1215DBCC4A00F2FE40 /* ECRegexKitLite.framework */,
 			);
 			name = Products;
 			path = ../..;
@@ -164,7 +163,6 @@
 		0867D691FE84028FC02AAC07 /* ECFoundation */ = {
 			isa = PBXGroup;
 			children = (
-				22F08DF515E6274F003E8456 /* libicucore.dylib */,
 				22BBB10114F646D20086974D /* Source */,
 				2274B37714F56679003B8A0B /* Resources */,
 				0867D69AFE84028FC02AAC07 /* Frameworks */,
@@ -177,15 +175,14 @@
 		0867D69AFE84028FC02AAC07 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				22F08DF515E6274F003E8456 /* libicucore.dylib */,
 				2251BBAD15DC1B4E00F2FE40 /* ECConfig.framework */,
 				2251BBA615DC18ED00F2FE40 /* ECUnitTests.framework */,
 				223CBAE11205C5930008A641 /* iOS */,
 				1058C7B0FEA5585E11CA2CBB /* MacOS */,
-				1058C7B2FEA5585E11CA2CBB /* Testing */,
 				2283A3BB14F52E93009142F7 /* Cocoa.framework */,
 				2283A3CD14F52E93009142F7 /* SenTestingKit.framework */,
 				2237ECE314F5644C00085BF5 /* Foundation.framework */,
-				2274B38F14F56896003B8A0B /* UIKit.framework */,
 				2251BA1315DBCC4A00F2FE40 /* CoreFoundation.framework */,
 				2283A3BD14F52E93009142F7 /* Other Frameworks */,
 			);
@@ -209,17 +206,10 @@
 			name = MacOS;
 			sourceTree = "<group>";
 		};
-		1058C7B2FEA5585E11CA2CBB /* Testing */ = {
-			isa = PBXGroup;
-			children = (
-				227333B811EBBA3000695FB4 /* GHUnit.framework */,
-			);
-			name = Testing;
-			sourceTree = "<group>";
-		};
 		223CBAE11205C5930008A641 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
+				2274B38F14F56896003B8A0B /* UIKit.framework */,
 				22BE51351496BD25007CC214 /* QuartzCore.framework */,
 				22BE51331496BD00007CC214 /* CoreData.framework */,
 				22BE50B8149662D0007CC214 /* CoreText.framework */,
@@ -354,7 +344,7 @@
 			);
 			name = ECRegexKitLiteMac;
 			productName = MacFramework;
-			productReference = 2251B9FF15DBCC3E00F2FE40 /* ECRegExKitLite.framework */;
+			productReference = 2251B9FF15DBCC3E00F2FE40 /* ECRegexKitLite.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		2251BA1115DBCC4A00F2FE40 /* ECRegexKitLiteIOS */ = {
@@ -373,7 +363,7 @@
 			);
 			name = ECRegexKitLiteIOS;
 			productName = "iOS Bundle";
-			productReference = 2251BA1215DBCC4A00F2FE40 /* ECRegExKitLite.framework */;
+			productReference = 2251BA1215DBCC4A00F2FE40 /* ECRegexKitLite.framework */;
 			productType = "com.apple.product-type.bundle";
 		};
 		225EC67111EBAA4800A97AEA /* ECRegexKitLiteMacTests */ = {
@@ -422,7 +412,7 @@
 				LastUpgradeCheck = 0440;
 				ORGANIZATIONNAME = "Elegant Chaos";
 			};
-			buildConfigurationList = 1DEB91B108733DA50010E9CD /* Build configuration list for PBXProject "ECRegExKitLite" */;
+			buildConfigurationList = 1DEB91B108733DA50010E9CD /* Build configuration list for PBXProject "ECRegexKitLite" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 1;
@@ -642,7 +632,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1DEB91B108733DA50010E9CD /* Build configuration list for PBXProject "ECRegExKitLite" */ = {
+		1DEB91B108733DA50010E9CD /* Build configuration list for PBXProject "ECRegexKitLite" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1DEB91B208733DA50010E9CD /* Debug */,

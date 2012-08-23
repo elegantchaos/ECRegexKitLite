@@ -29,9 +29,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "2251BA1115DBCC4A00F2FE40"
-               BuildableName = "ECRegExKitLite.framework"
+               BuildableName = "ECRegexKitLite.framework"
                BlueprintName = "ECRegexKitLiteIOS"
-               ReferencedContainer = "container:ECRegExKitLite.xcodeproj">
+               ReferencedContainer = "container:ECRegexKitLite.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
