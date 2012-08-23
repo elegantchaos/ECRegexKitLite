@@ -1,0 +1,3 @@
+[submodule "Source/RegexKitLite"]
+	path = Source/RegexKitLite
+	url = git://github.com/samdeane/RegexKitLite.git

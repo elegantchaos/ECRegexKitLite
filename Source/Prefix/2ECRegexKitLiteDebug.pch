@@ -6,4 +6,4 @@
 
 #import <ECConfig/ECConfigDebug.pch>
 
-#import "ECRegExKitLiteShared.pch"
+#import "ECRegexKitLiteShared.pch"
