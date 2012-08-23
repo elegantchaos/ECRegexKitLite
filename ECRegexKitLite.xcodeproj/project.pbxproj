@@ -12,7 +12,6 @@
 		220D699C15DC50CE00CCC17C /* ECUnitTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2251BBA615DC18ED00F2FE40 /* ECUnitTests.framework */; };
 		220D699D15DC510900CCC17C /* ECRegExKitLite.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2251B9FF15DBCC3E00F2FE40 /* ECRegExKitLite.framework */; };
 		22339C3915DEC1C60017BC6B /* ECRegExKitLite.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2251BA1215DBCC4A00F2FE40 /* ECRegExKitLite.framework */; };
-		22339C3A15DEC1E30017BC6B /* ECUnitTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2251BBA615DC18ED00F2FE40 /* ECUnitTests.framework */; };
 		2251BA0015DBCC3E00F2FE40 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2283A3BB14F52E93009142F7 /* Cocoa.framework */; };
 		2251BA6415DBD9A600F2FE40 /* ECRegExKitLite.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2251B9FF15DBCC3E00F2FE40 /* ECRegExKitLite.framework */; };
 		2268499E14F5720600B8691A /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2283A3CD14F52E93009142F7 /* SenTestingKit.framework */; };
@@ -26,6 +25,7 @@
 		22F08DD015E62518003E8456 /* RegexKitLite.h in Headers */ = {isa = PBXBuildFile; fileRef = 22F08DB615E62518003E8456 /* RegexKitLite.h */; };
 		22F08DD315E62518003E8456 /* RegexKitLite.m in Sources */ = {isa = PBXBuildFile; fileRef = 22F08DB815E62518003E8456 /* RegexKitLite.m */; };
 		22F08DD415E62518003E8456 /* RegexKitLite.m in Sources */ = {isa = PBXBuildFile; fileRef = 22F08DB815E62518003E8456 /* RegexKitLite.m */; };
+		22F08DF615E6274F003E8456 /* libicucore.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 22F08DF515E6274F003E8456 /* libicucore.dylib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -91,6 +91,19 @@
 		22F08D9315E61F5C003E8456 /* ECRegExKitLite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ECRegExKitLite.h; path = Generic/ECRegExKitLite.h; sourceTree = "<group>"; };
 		22F08DB615E62518003E8456 /* RegexKitLite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegexKitLite.h; sourceTree = "<group>"; };
 		22F08DB815E62518003E8456 /* RegexKitLite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegexKitLite.m; sourceTree = "<group>"; };
+		22F08DE815E626F6003E8456 /* License.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = License.html; sourceTree = "<group>"; };
+		22F08DE915E626F6003E8456 /* License.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; path = License.rtf; sourceTree = "<group>"; };
+		22F08DEA15E626F6003E8456 /* RegexKitLite.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = RegexKitLite.html; sourceTree = "<group>"; };
+		22F08DEC15E626FE003E8456 /* compiledRegexCache.d */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.dtrace; path = compiledRegexCache.d; sourceTree = "<group>"; };
+		22F08DED15E626FE003E8456 /* for_in.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = for_in.m; sourceTree = "<group>"; };
+		22F08DEE15E626FE003E8456 /* link_example.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = link_example.m; sourceTree = "<group>"; };
+		22F08DEF15E626FE003E8456 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		22F08DF015E626FE003E8456 /* NSString-HexConversion.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString-HexConversion.h"; sourceTree = "<group>"; };
+		22F08DF115E626FE003E8456 /* NSString-HexConversion.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString-HexConversion.m"; sourceTree = "<group>"; };
+		22F08DF215E626FE003E8456 /* RKLMatchEnumerator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RKLMatchEnumerator.h; sourceTree = "<group>"; };
+		22F08DF315E626FE003E8456 /* RKLMatchEnumerator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RKLMatchEnumerator.m; sourceTree = "<group>"; };
+		22F08DF415E626FE003E8456 /* utf16ConversionCache.d */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.dtrace; path = utf16ConversionCache.d; sourceTree = "<group>"; };
+		22F08DF515E6274F003E8456 /* libicucore.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libicucore.dylib; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/lib/libicucore.dylib; sourceTree = DEVELOPER_DIR; };
 		22FAC46C132149E900103630 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = SDKs/MacOSX10.6.sdk/System/Library/Frameworks/CoreLocation.framework; sourceTree = DEVELOPER_DIR; };
 /* End PBXFileReference section */
 
@@ -99,6 +112,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				22F08DF615E6274F003E8456 /* libicucore.dylib in Frameworks */,
 				2251BA0015DBCC3E00F2FE40 /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -125,7 +139,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				22339C3A15DEC1E30017BC6B /* ECUnitTests.framework in Frameworks */,
 				22339C3915DEC1C60017BC6B /* ECRegExKitLite.framework in Frameworks */,
 				2274B38E14F56896003B8A0B /* SenTestingKit.framework in Frameworks */,
 				2274B39014F56896003B8A0B /* UIKit.framework in Frameworks */,
@@ -151,6 +164,7 @@
 		0867D691FE84028FC02AAC07 /* ECFoundation */ = {
 			isa = PBXGroup;
 			children = (
+				22F08DF515E6274F003E8456 /* libicucore.dylib */,
 				22BBB10114F646D20086974D /* Source */,
 				2274B37714F56679003B8A0B /* Resources */,
 				0867D69AFE84028FC02AAC07 /* Frameworks */,
@@ -275,10 +289,30 @@
 		22F08DA915E62518003E8456 /* RegexKitLite */ = {
 			isa = PBXGroup;
 			children = (
+				22F08DE815E626F6003E8456 /* License.html */,
+				22F08DE915E626F6003E8456 /* License.rtf */,
+				22F08DEA15E626F6003E8456 /* RegexKitLite.html */,
+				22F08DEB15E626FE003E8456 /* examples */,
 				22F08DB615E62518003E8456 /* RegexKitLite.h */,
 				22F08DB815E62518003E8456 /* RegexKitLite.m */,
 			);
 			path = RegexKitLite;
+			sourceTree = "<group>";
+		};
+		22F08DEB15E626FE003E8456 /* examples */ = {
+			isa = PBXGroup;
+			children = (
+				22F08DEC15E626FE003E8456 /* compiledRegexCache.d */,
+				22F08DED15E626FE003E8456 /* for_in.m */,
+				22F08DEE15E626FE003E8456 /* link_example.m */,
+				22F08DEF15E626FE003E8456 /* main.m */,
+				22F08DF015E626FE003E8456 /* NSString-HexConversion.h */,
+				22F08DF115E626FE003E8456 /* NSString-HexConversion.m */,
+				22F08DF215E626FE003E8456 /* RKLMatchEnumerator.h */,
+				22F08DF315E626FE003E8456 /* RKLMatchEnumerator.m */,
+				22F08DF415E626FE003E8456 /* utf16ConversionCache.d */,
+			);
+			path = examples;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
