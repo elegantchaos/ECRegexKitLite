@@ -17,7 +17,7 @@
                BlueprintIdentifier = "221CB52D15DA9816004C6398"
                BuildableName = "ECConfig.framework"
                BlueprintName = "ECConfigMac"
-               ReferencedContainer = "container:../ECConfig/ECConfig.xcodeproj">
+               ReferencedContainer = "container:../../Frameworks/ECConfig/ECConfig.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
