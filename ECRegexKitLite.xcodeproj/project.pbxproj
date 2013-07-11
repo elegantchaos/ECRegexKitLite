@@ -68,12 +68,12 @@
 		22552BCB134B9E5300B8894E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		22552BE6134BA0C900B8894E /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/CoreLocation.framework; sourceTree = DEVELOPER_DIR; };
 		22552C12134BA18A00B8894E /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = SDKs/MacOSX10.6.sdk/System/Library/Frameworks/CoreLocation.framework; sourceTree = DEVELOPER_DIR; };
-		225EC67211EBAA4800A97AEA /* ECRegexKitLiteMacTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ECRegexKitLiteMacTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		225EC67211EBAA4800A97AEA /* ECRegexKitLiteMacTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = ECRegexKitLiteMacTests.octest; path = .bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		22602234141F8A160044644C /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = SDKs/MacOSX10.7.sdk/System/Library/Frameworks/Carbon.framework; sourceTree = DEVELOPER_DIR; };
 		22602236141F8A230044644C /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = SDKs/MacOSX10.7.sdk/System/Library/Frameworks/IOKit.framework; sourceTree = DEVELOPER_DIR; };
 		22602238141F8A460044644C /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = SDKs/MacOSX10.7.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
 		2260223A141F8A4E0044644C /* libcrypto.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libcrypto.dylib; path = SDKs/MacOSX10.7.sdk/usr/lib/libcrypto.dylib; sourceTree = DEVELOPER_DIR; };
-		2274B38D14F56896003B8A0B /* ECRegexKitLiteIOSTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ECRegexKitLiteIOSTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2274B38D14F56896003B8A0B /* ECRegexKitLiteIOSTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = ECRegexKitLiteIOSTests.octest; path = .bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		2274B38F14F56896003B8A0B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		2283A3BB14F52E93009142F7 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		2283A3BE14F52E93009142F7 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -81,6 +81,7 @@
 		2283A3C014F52E93009142F7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		2283A3CD14F52E93009142F7 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		2283A4CB14F53C6F009142F7 /* ECRegexKitLiteShared.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECRegexKitLiteShared.pch; sourceTree = "<group>"; };
+		22860939178EFA9B0081E917 /* ECRegExKitLite.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = ECRegExKitLite.xcconfig; path = ../../../ECRegexKitLite/Source/Configuration/ECRegExKitLite.xcconfig; sourceTree = "<group>"; };
 		22970D3C14F5AA80007B254B /* ECRegexKitLiteDebug.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECRegexKitLiteDebug.pch; sourceTree = "<group>"; };
 		22970D3D14F5AA80007B254B /* ECRegexKitLiteRelease.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECRegexKitLiteRelease.pch; sourceTree = "<group>"; };
 		22BE50B8149662D0007CC214 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/System/Library/Frameworks/CoreText.framework; sourceTree = DEVELOPER_DIR; };
@@ -233,6 +234,7 @@
 				2251BA5D15DBD68500F2FE40 /* IOSUnitTestRelease.xcconfig */,
 				2251BA5E15DBD68500F2FE40 /* MacUnitTestDebug.xcconfig */,
 				2251BA5F15DBD68500F2FE40 /* MacUnitTestRelease.xcconfig */,
+				22860939178EFA9B0081E917 /* ECRegExKitLite.xcconfig */,
 			);
 			path = Configuration;
 			sourceTree = "<group>";
@@ -363,7 +365,7 @@
 			);
 			name = ECRegexKitLiteIOS;
 			productName = "iOS Bundle";
-			productReference = 2251BA1215DBCC4A00F2FE40 /* ECRegexKitLite.framework */;
+			productReference = 2251BA1215DBCC4A00F2FE40 /* .bundle */;
 			productType = "com.apple.product-type.bundle";
 		};
 		225EC67111EBAA4800A97AEA /* ECRegexKitLiteMacTests */ = {
