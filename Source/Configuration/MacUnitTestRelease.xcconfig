@@ -9,3 +9,4 @@
 
 #include "../ECConfig/Source/Configuration/ECMacRelease.xcconfig"
 #include "../ECConfig/Source/Configuration/ECUnitTests.xcconfig"
+#include "ECRegExKitLite.xcconfig"

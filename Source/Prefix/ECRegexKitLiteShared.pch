@@ -8,6 +8,6 @@
 
 #ifdef __OBJC__
 
-#include <ECConfig/ECConfig.h>
+#import <ECLogging/ECLogging.h>
 
 #endif

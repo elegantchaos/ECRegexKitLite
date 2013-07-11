@@ -9,3 +9,4 @@
 
 #include "../ECConfig/Source/Configuration/ECIOSDebug.xcconfig"
 #include "../ECConfig/Source/Configuration/ECUnitTests.xcconfig"
+#include "ECRegExKitLite.xcconfig"

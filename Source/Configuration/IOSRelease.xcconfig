@@ -9,3 +9,4 @@
 
 #include "../ECConfig/Source/Configuration/ECIOSRelease.xcconfig"
 #include "../ECConfig/Source/Configuration/ECPseudoFramework.xcconfig"
+#include "ECRegExKitLite.xcconfig"
