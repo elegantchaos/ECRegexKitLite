@@ -357,7 +357,7 @@
 				2251BA7A15DBDC2100F2FE40 /* Headers */,
 				2251BA0F15DBCC4A00F2FE40 /* Frameworks */,
 				2251BA1015DBCC4A00F2FE40 /* Resources */,
-				2251BA7815DBDBE300F2FE40 /* ShellScript */,
+				2251BA7815DBDBE300F2FE40 /* Package Framework */,
 			);
 			buildRules = (
 			);
@@ -365,7 +365,7 @@
 			);
 			name = ECRegexKitLiteIOS;
 			productName = "iOS Bundle";
-			productReference = 2251BA1215DBCC4A00F2FE40 /* .bundle */;
+			productReference = 2251BA1215DBCC4A00F2FE40 /* ECRegexKitLite.framework */;
 			productType = "com.apple.product-type.bundle";
 		};
 		225EC67111EBAA4800A97AEA /* ECRegexKitLiteMacTests */ = {
@@ -471,18 +471,19 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		2251BA7815DBDBE300F2FE40 /* ShellScript */ = {
+		2251BA7815DBDBE300F2FE40 /* Package Framework */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
+			name = "Package Framework";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${ECCONFIG_SCRIPTS_PATH}/package-pseudo-framework.sh\"";
+			shellScript = "\"${ECLOGGING_SCRIPTS_PATH}/package-pseudo-framework.sh\"";
 			showEnvVarsInLog = 0;
 		};
 		225EC67011EBAA4800A97AEA /* ShellScript */ = {
